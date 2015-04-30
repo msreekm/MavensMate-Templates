@@ -10,24 +10,24 @@
 		            "name"          : "api_name",
 		            "description"   : "Apex Class API Name",
 		            "default" 		: "MyApexClass"
-		        },
-		        {   
-		            "name"          : "author",
-		            "description"   : "Apex class author",
-		            "default" 		: "Sreekumar Menon"
 		        }
 		   ]
 		},
 		{
 			"name" 			: "Trigger Handler Agni",
 			"file_name"		: "TriggerHandlerAgni.cls",
-			"description" 	: "The Apex class template for a trigger handler in Agni framework",
+			"description" 	: "Apex class template for a trigger handler in Agni framework",
 			"author" 		: "Sreekumar Menon",
 			"params" 		: [ 
 		        {   
 		            "name"          : "object_name",
 		            "description"   : "API name of the Standard or Custom Object",
 		            "default" 		: "Account"
+		        },
+		        {   
+		            "name"          : "author",
+		            "description"   : "Apex class author",
+		            "default" 		: "Sreekumar Menon"
 		        }
 		   ]
 		},

@@ -275,25 +275,6 @@
 		   ]
 		}
 	],
-	"ApexTriggerAgni" : [
-		{
-			"name" 			: "Apex Trigger Agni",
-			"file_name"		: "ApexTriggerAgni.trigger",
-			"description" 	: "Basic Apex Trigger template",
-			"author" 		: "Sreekumar Menon",
-			"params" 		: [ 
-		        {   
-		            "name"          : "api_name",
-		            "description"   : "Apex Trigger API Name",
-		            "default" 		: "AccountObjectTrigger"
-		        },
-		        {   
-		            "name"          : "object_name",
-		            "description"   : "Object API Name",
-		            "default" 		: "Account"
-		        }
-		   ]
-		},
 	"ApexTrigger" : [
 		{
 			"name" 			: "Apex Trigger",
@@ -305,6 +286,24 @@
 		            "name"          : "api_name",
 		            "description"   : "Apex Trigger API Name",
 		            "default" 		: "MyCoolTrigger"
+		        },
+		        {   
+		            "name"          : "object_name",
+		            "description"   : "Object API Name",
+		            "default" 		: "Account"
+		        }
+		   ]
+		},
+		{
+			"name" 			: "Apex Trigger Agni",
+			"file_name"		: "ApexTriggerAgni.trigger",
+			"description" 	: "Agni Apex Trigger template",
+			"author" 		: "Sreekumar Menon",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Apex Trigger API Name",
+		            "default" 		: "AccountObjectTrigger"
 		        },
 		        {   
 		            "name"          : "object_name",

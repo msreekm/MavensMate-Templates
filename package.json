@@ -350,10 +350,10 @@
 		   ]
 		},
 		{
-			"name" 			: "DomainTrigger",
+			"name" 			: "DomainTrigger1",
 			"file_name"		: "DomainTrigger.trigger",
 			"description" 	: "Apex Enterprise Patterns Domain Trigger",
-			"author" 		: "Andy Fawcett @andyinthecloud",
+			"author" 		: "Sree Fawcett @andyinthecloud",
 			"params"		: [
 				{
 					"name"			: "api_name",

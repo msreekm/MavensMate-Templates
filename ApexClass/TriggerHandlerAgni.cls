@@ -78,7 +78,7 @@ public class {{ api_name }} extends TriggerHandler {
         try{
             if(!isReEntry){
               //insert code here for after update
-            
+           } 
         } catch(Exception e){          
             throw new TriggerException('{{ api_name }} ->onAfterUpdate ' + e);
         }

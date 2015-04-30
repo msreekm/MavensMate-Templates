@@ -22,7 +22,7 @@
 		        {   
 		            "name"          : "api_name",
 		            "description"   : "API name of the Standard or Custom Object",
-		            "default" 		: "Account"
+		            "default" 		: "AccountTriggerHandler"
 		        },
 		        {   
 		            "name"          : "author",

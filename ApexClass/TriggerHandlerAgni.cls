@@ -1,5 +1,5 @@
 /********************************************************************************************
- Class Name: {{ api_name }}TriggerHandler
+ Class Name: {{ api_name }}
  Author: {{ author }}
  Date: 
  Requirement/Project Name: AD-62116 - Account open sharing related changes
@@ -7,7 +7,7 @@
 * Date Modified                Modified By                  Description of the update
 ***********************************************************************************************/
 
-public class {{ api_name }}TriggerHandler extends TriggerHandler {
+public class {{ api_name }} extends TriggerHandler {
 
     //{{ api_name }}TriggerHelper helper = new {{ api_name }}TriggerHelper();   
 
@@ -23,7 +23,7 @@ public class {{ api_name }}TriggerHandler extends TriggerHandler {
         try{
              //insert initialize code here
         }catch(Exception e)  {
-            throw new TriggerException('Error on {{ api_name }}TriggerHandler onInitialize method with the following error message'+e.getMessage());       
+            throw new TriggerException('Error on {{ api_name }} onInitialize method with the following error message'+e.getMessage());       
         }   
     }
 
@@ -38,7 +38,7 @@ public class {{ api_name }}TriggerHandler extends TriggerHandler {
                 //insert code here for before insert                                                      
             }
         } catch(Exception e){            
-              throw new TriggerException('{{ api_name }}TriggerHandler ->onBeforeInsert ' + e);
+              throw new TriggerException('{{ api_name }} ->onBeforeInsert ' + e);
         }
     }
     
@@ -50,7 +50,7 @@ public class {{ api_name }}TriggerHandler extends TriggerHandler {
                                              
             }
         } catch(Exception e){          
-            throw new TriggerException('{{ api_name }}TriggerHandler ->onAfterInsert ' + e);
+            throw new TriggerException('{{ api_name }} ->onAfterInsert ' + e);
         }        
     }
     /**
@@ -65,7 +65,7 @@ public class {{ api_name }}TriggerHandler extends TriggerHandler {
                 //insert code here for before update
                  }
         } catch(Exception e){           
-        		throw new TriggerException('{{ api_name }}TriggerHandler ->onBeforeUpdate ' + e);
+        		throw new TriggerException('{{ api_name }} ->onBeforeUpdate ' + e);
         }
     } 
     
@@ -80,7 +80,7 @@ public class {{ api_name }}TriggerHandler extends TriggerHandler {
               //insert code here for after update
             
         } catch(Exception e){          
-            throw new TriggerException('{{ api_name }}TriggerHandler ->onAfterUpdate ' + e);
+            throw new TriggerException('{{ api_name }} ->onAfterUpdate ' + e);
         }
     }
     
@@ -95,7 +95,7 @@ public class {{ api_name }}TriggerHandler extends TriggerHandler {
                 //insert code here for before delete
          }            
         } catch(Exception e){           
-            throw new TriggerException('{{ api_name }}TriggerHandler ->onBeforeDelete ' + e);
+            throw new TriggerException('{{ api_name }} ->onBeforeDelete ' + e);
         }   
     }    
     
@@ -111,7 +111,7 @@ public class {{ api_name }}TriggerHandler extends TriggerHandler {
                 //insert code here for after delete
             }            
         } catch(Exception e){
-        		throw new TriggerException('{{ api_name }}TriggerHandler ->onAfterDelete ' + e);
+        		throw new TriggerException('{{ api_name }} ->onAfterDelete ' + e);
         }*/
     }
     
@@ -128,7 +128,7 @@ public class {{ api_name }}TriggerHandler extends TriggerHandler {
 
             }            
         } catch(Exception e){
-            throw new TriggerException('{{ api_name }}TriggerHandler ->onUndelete ' + e);
+            throw new TriggerException('{{ api_name }} ->onUndelete ' + e);
         }*/
     }
 
